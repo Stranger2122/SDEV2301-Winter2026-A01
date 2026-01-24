@@ -1,4 +1,4 @@
-# Exercise Clases and Objects
+# Exercise Classes and Objects
 # Pet Store
 
 Create a console application that simulates adding animals to a pet store.
@@ -38,7 +38,7 @@ Implement object oriented programming and encapsulation where required.
                 - Must be from 1-80
             - Species: String
         - Methods
-            - override ToString to print the Name, Age, and Breed.
+            - override ToString to print the Name, Age, and Species.
             - MakeNoise(): Prints "{name} chirps excitedly."
 5. Create the following methods in the Program.cs file:
     - `PrintMainMenu()`: void method that prints the opening menu
@@ -47,7 +47,7 @@ Implement object oriented programming and encapsulation where required.
     - `AddCat()`: void method that adds a new cat
     - `AddBird()`: void method that adds a new bird
     - `GetString(string prompt)`: method that prompts the user for a string using the `prompt` parameter. It returns the string the user entered.
-    - `GetInt(string prompt)`: prompts the user for an integer using the `prompt` parameter. _Safely_ gets an input from the user implemented proper error handling. Returns the integer the user entered.
+    - `GetInt(string prompt)`: prompts the user for an integer using the `prompt` parameter. _Safely_ gets an input from the user implementing proper error handling. Returns the integer the user entered.
 6. When adding a dog or a cat, The user should be prompted to add the name, age, and breed properties. Included validation for numeric values.
 7. When adding a bird, the user should be prompted to add the name, age, and species properties. Include validation for numeric values.
 8. Use these values to create a new object of the specified type. 
